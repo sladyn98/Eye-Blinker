@@ -1,0 +1,12 @@
+language: python
+python: 3.6
+
+install:
+- pip3 install dlib
+- pip3 install opencv-python
+- pip install PyQt5
+
+script:
+- git clone https://github.com/jay24rajput/Eye-Blinker.git
+- cd Eye-Blinker
+- python driver.py
